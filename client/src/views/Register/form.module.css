@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff28;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20PX);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    margin-top: 0;
+    text-align: left;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_picture {
+    border: 3px solid gray;
+    height: 150px;
+    width: 150px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../media/blank-profile-picture.png');
+}
+
+.file {
+    font-size: 15px;
+    border: none;
+    display: flex;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input {
+    width: 110%;
+    height: 40px;    
+    font-size: 18px;
+    margin: 6px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input:focus {
+    border: none;
+    outline: 3px solid var(--pink-color);
+}
+
+.label-check {
+    font-size: 19px;
+}
+
+.button {
+    background-color: var(--pink-color);
+    color: white;
+    width: 280px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width:320px) and (max-width:600px){
+
+    .title{
+        text-align: center;
+    }
+    
+    
+    }

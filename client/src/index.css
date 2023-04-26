@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide>div:nth-child(1){
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+
+.button-google{
+    display: flex;
+    width: 200px;
+    background-color: rgb(100, 174, 238);
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 1px 0px ;
+    color: rgb(238, 231, 231);
+    margin-left: -88px;
+    margin-top: 5px;
+}
+
+.button-google:hover{
+    background-color: rgb(196, 218, 211);
+}

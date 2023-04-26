@@ -1,0 +1,130 @@
+.contenedorRev{
+    display: flex;
+    align-items: start;
+    background-color: rgb(250, 247, 247);
+    margin-left: 6%;
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.prom span{
+   font-size: 30px;
+   font-weight:normal;
+   padding-right: 3px;
+}
+.prom{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    
+}
+.estrellas,.fecha, .comentarios{
+    margin-right: 20px;
+    margin-top: 10px;
+    align-items: end;
+}
+
+
+  .comentarios p, .fecha p {
+   font-size: 18px;
+   padding: 7px;
+  }
+  .tituloRes{
+   padding-bottom: 30px;
+   text-align: left;
+   font-size: 25px;
+   align-items: end;
+   margin-left: 6%;
+   color: rgb(250, 247, 247);
+  }
+
+.msg{
+    font-size: 25px;
+    margin-left: 6%;
+    color: rgb(250, 247, 247);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+/* POST  */
+.contenedorReview{
+ display: flex;
+flex-direction: column;
+ justify-content: center;
+
+ align-items: center;
+
+}
+.form-review{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 50px;
+    background-color: rgb(236, 248, 248);
+    align-items: center;
+    text-align: center;
+}
+
+.form-review label,textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.form-review textarea{
+    width: 300px;
+    height: 150px;
+    resize: none;
+    color: black;
+    text-align: left;
+    padding-left: 2px;
+    border: none;
+}
+.send{
+  margin-top: 10px;
+  background-color: rgb(156, 65, 241);
+  padding: 5px;
+  width: 200px;
+  color: white;
+  border-radius: 2px;
+}
+.send:hover{
+    opacity: 0.8;
+}
+/* star */
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    display: inline-block;
+    font-size: 1.5em;
+    width: 1.3em;
+    height: 1.5em;
+    margin: 0 0.25em;
+    cursor: pointer;
+  }
+  
+  .rating input[type="radio"]:checked ~ label {
+    color: rgb(243, 217, 67);
+   
+  }
+  
+  .Product{
+  padding: 20px;
+
+  }
+  .imgProduct{
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 50px;
+  }
+  .productName{
+    color: black;
+    font-size: 30px;
+  }
+  

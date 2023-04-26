@@ -1,0 +1,44 @@
+.contenedor-detail{
+    margin: 50px 100px   ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.Models{
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.image-container {
+   position: relative;
+   display: inline-block;
+ }
+ 
+ .image-zoom {
+   transition: transform 0.3s ease-in-out;
+ }
+ 
+ .image-zoom:hover {
+   transform: scale(1.2);
+ }
+
+ .cont-back{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 50px;
+ }
+
+ .button-back {
+        background-color: rgb(227, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 3px;
+        padding: 5px 30px ;
+ }
+ .button-back:hover{
+    transform: scale(1.2);
+    background-color: rgb(250, 247, 244);
+ }
+ .icono-atras{
+    width: 30px;
+ }
